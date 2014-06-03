@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>НКТ-завод</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le styles -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/camera.css" rel="stylesheet">
+    <link href="./css/prettyPhoto.css" rel="stylesheet">
+    <link href="./css/icons.css" rel="stylesheet">
+    <link href="./css/skin-bluedark2.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    {% block css %}{% endblock css %}
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="./js/html5shiv.js"></script>
+    <![endif]-->
+    <!--[if IE]>
+    <style>
+      .isotope-hidden { display: none; }
+    </style>
+    <![endif]-->
+  </head>
+  <body class="boxed">
+    <div class="linebordertop"></div>
+    <div class="topheader"></div>
+    <div class="lineborderbottom"></div>
+
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span4">
+          <a class="btn btn-navbar pull-right" data-toggle="collapse" data-target=".nav-collapse">
+            <i class="icon-align-justify"></i>
+          </a>
+          <a href="index.html"><img src="images/logo1.png" class="logo" alt="logo"></a>
+        </div>
+        <div class="span4 offset4">
+          <div class="rightinfo text-right">
+            <i class="icon-phone"></i>&nbsp; + 7-343-929-9510<br>
+            +7-343-929-9523<br> +7-343-929-9574
+          </div>
+        </div>
+      </div>
+      <div class="row-nav navbar">
+        <div class="nav-collapse collapse">
+          <div class="navbar-inner">
+            {% include 'menu.tpl' %}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body" style="z-index: 0;">
+      <div class="container">
+        <div class="row-fluid">
+          {% block content %}{% endblock content %}
+        </div>
+      </div>
+    </div>
+    <div class="footer footerdark">
+      <div class="container">
+        <div class="row-fluid">
+          {% include 'footer.tpl' %}
+        </div>
+      </div>
+    </div>
+    <div class="footerbottom footerbottomdark">
+      <div class="container container">
+        <div class="row-fluid">
+          <!-- left -->
+          <div class="span4 smallspacetop">
+            <p class="smaller">
+              <span class="copyright">© </span> Copyright 2014 Основные локальные сервисы.
+            </p>
+          </div>
+          <!-- right -->
+          <div class="span8 smallspacetop">
+            <div class="pull-right smaller">
+              <ul class="footermenu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Продукция</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+            <div class="clearfix">
+            </div>
+          </div>
+          <!-- end right -->
+        </div>
+      </div>
+      <div class="text-center wraptotop">
+        <a class="totop"><i class="icon-chevron-up"></i></a>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/prettyPhoto.js"></script>
+    <script src="js/custom.js"></script>
+    {% block js %}{% endblock js %}
+  </body>
+</html>

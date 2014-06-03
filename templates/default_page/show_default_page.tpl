@@ -1,1 +1,4 @@
-show_default_page
+{% extends 'default.tpl' %}
+{% block content %}
+  kljhsdjkfsdkljflksdjflsjd
+{% endblock %}
