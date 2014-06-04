@@ -1,6 +1,6 @@
 {% extends 'default.tpl' %}
 {% block content %}
-<!-- SLIDER -->
+kljhsdjkfsdkljflksdjflsjd<!-- SLIDER -->
       <div class="row-fluid">
         <div class="camera_wrap pattern_4 camera_emboss" id="camera_wrap_4">
           <div data-src="/images/nkt1.jpg">
