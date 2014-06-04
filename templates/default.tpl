@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>НКТ-завод</title>
+    <title>ПМТЗ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -37,12 +37,12 @@
           <a class="btn btn-navbar pull-right" data-toggle="collapse" data-target=".nav-collapse">
             <i class="icon-align-justify"></i>
           </a>
-          <a href="index.html"><img src="images/logo1.png" class="logo" alt="logo"></a>
+          <a href="/"><img src="images/logo1.png" class="logo" alt="logo"></a>
         </div>
         <div class="span4 offset4">
           <div class="rightinfo text-right">
-            <i class="icon-phone"></i>&nbsp; + 7-343-929-9510<br>
-            +7-343-929-9523<br> +7-343-929-9574
+            <i class="icon-phone"></i> 8(3439) 29-95-10, 29-95-74
+            <br><i class="icon-print"></i> 8(3439) 29-95-23
           </div>
         </div>
       </div>
@@ -56,9 +56,7 @@
     </div>
     <div class="body" style="z-index: 0;">
       <div class="container">
-        <div class="row-fluid">
           {% block content %}{% endblock content %}
-        </div>
       </div>
     </div>
     <div class="footer footerdark">
