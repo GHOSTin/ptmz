@@ -19,7 +19,7 @@ body.boxed div.body {
 	background-color:#346b7f;	
 }
 #search a {	
-	background:#346b7f url(../img/part-btn-search.png) no-repeat center center;
+	background:#346b7f url(../images/part-btn-search.png) no-repeat center center;
 }
 .dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-submenu:hover>a,.dropdown-submenu:focus>a {	
 	background-color:#346b7f;
@@ -33,7 +33,7 @@ body.boxed div.body {
 	background-color:#346b7f;	
 }
 a.prev,a.next {
-	background:url(../img/carousel_arrows.png) no-repeat #346b7f;
+	background:url(../images/carousel_arrows.png) no-repeat #346b7f;
 }
 a.next {
 	background-position:-22px 0
@@ -60,4 +60,4 @@ border-bottom: 5px solid #346b7f;
 .accordion h3.active,.toggle h3.active,.accordion h3:hover,.toggle h3:hover {
 	background:#346b7f;}
 	
-.topheader{ background:#2C5B6C url(../img/transpbg.png) no-repeat;}
+.topheader{ background:#2C5B6C url(../images/transpbg.png) no-repeat;}
