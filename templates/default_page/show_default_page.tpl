@@ -1,4 +1,7 @@
 {% extends 'default.tpl' %}
 {% block content %}
-  kljhsdjkfsdkljflksdjflsjd
+  kljhsdjkfsdkljflksdjflsjdвапвапвапвап
+  <div class="intro">
+    <h1>qweqweqweqweвапвапвапвапвап</h1>
+  </div>
 {% endblock %}
