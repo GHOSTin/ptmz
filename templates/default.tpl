@@ -13,7 +13,7 @@
     <link href="./css/camera.css" rel="stylesheet">
     <link href="./css/prettyPhoto.css" rel="stylesheet">
     <link href="./css/icons.css" rel="stylesheet">
-    <link href="./css/skin-bluedark2.css" rel="stylesheet">
+    <link href="./css/skin-red.css" rel="stylesheet">
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
     {% block css %}{% endblock css %}
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -37,7 +37,7 @@
           <a class="btn btn-navbar pull-right" data-toggle="collapse" data-target=".nav-collapse">
             <i class="icon-align-justify"></i>
           </a>
-          <a href="/"><img src="/images/ptmz.png" class="logo" alt="Логотип ПТМЗ"></a>
+          <a href="/"><img src="/images/ptmz.png" class="logo" style="padding-top:20px" alt="Логотип ПТМЗ"></a>
         </div>
         <div class="span4 offset4">
           <div class="rightinfo text-right">
