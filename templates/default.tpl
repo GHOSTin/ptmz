@@ -37,12 +37,13 @@
           <a class="btn btn-navbar pull-right" data-toggle="collapse" data-target=".nav-collapse">
             <i class="icon-align-justify"></i>
           </a>
-          <a href="/"><img src="images/logo1.png" class="logo" alt="logo"></a>
+          <a href="/"><img src="/images/ptmz.png" class="logo" alt="Логотип ПТМЗ"></a>
         </div>
         <div class="span4 offset4">
           <div class="rightinfo text-right">
             <i class="icon-phone"></i> 8(3439) 29-95-10, 29-95-74
             <br><i class="icon-print"></i> 8(3439) 29-95-23
+            <br><i class="icon-envelope"></i> ooo-ptmz@yandex.ru
           </div>
         </div>
       </div>
