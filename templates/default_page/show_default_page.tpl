@@ -46,7 +46,7 @@
 <!-- SUPPORT  -->
 <div class="row-fluid graysection text-center top40">
   <p class="lead bottom0">
-    <i class="icon-envelope"></i> Need help with this template? Support guaranteed: <a href="mailto:wowthemesnet@gmail.com">wowthemesnet@gmail.com</a>
+    Многолетний опыт работы с заказчиками показал, что существующая технология, оборудования и организация производства обеспечивают качество выпускаемой продукции.
   </p>
 </div>
 <!-- OUR COMPANY & WHY CHOOSE US  -->
@@ -97,7 +97,7 @@
            At leo tincidunt felis facilisis tincidunt. Nunc sit amet velit metus. Proin posuere, ligula nec porttitor eget luctus, risus lectus tristique ligula, quis pretium elit diam a nisi eget mauris vestibulum.
         </p>
       </div>
-      <h3><span>Eros odio ornare commodo</span></h3>
+      <h3><span>Транспорт</span></h3>
       <div class="accord_cont">
         <p>
            Ut est mi, consequat ut bibendum quis, vehicula vel nibh. At leo tincidunt felis facilisis tincidunt. Nunc sit amet velit metus. Proin posuere, ligula nec porttitor eget luctus, risus lectus tristique ligula, quis pretium elit diam a nisi eget mauris vestibulum.
