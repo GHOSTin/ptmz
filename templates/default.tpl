@@ -8,13 +8,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Le styles -->
-    <link href="./css/bootstrap.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/camera.css" rel="stylesheet">
-    <link href="./css/prettyPhoto.css" rel="stylesheet">
-    <link href="./css/icons.css" rel="stylesheet">
-    <link href="./css/skin-red.css" rel="stylesheet">
-    <link href="./css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/camera.css" rel="stylesheet">
+    <link href="/css/prettyPhoto.css" rel="stylesheet">
+    <link href="/css/icons.css" rel="stylesheet">
+    <link href="/css/skin-red.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
     {% block css %}{% endblock css %}
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -96,11 +96,11 @@
         <a class="totop"><i class="icon-chevron-up"></i></a>
       </div>
     </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/prettyPhoto.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/prettyPhoto.js"></script>
+    <script src="/js/custom.js"></script>
     {% block js %}{% endblock js %}
   </body>
 </html>
