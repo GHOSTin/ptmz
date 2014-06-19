@@ -5,10 +5,10 @@
   <li class="divider-vertical"></li>
   <li><a href="/company/">О компании</a></li>
   <li class="divider-vertical"></li>
-  <li><a href="#">Продукция</a></li>
+  <li><a href="/production/">Продукция</a></li>
   <li class="divider-vertical"></li>
-  <li><a href="#">Прайс</a></li>
+  <li><a href="/price/">Прайс</a></li>
   <li class="divider-vertical"></li>
-  <li><a href="">Контакты</a></li>
+  <li><a href="/company/contacts/">Контакты</a></li>
   <li class="divider-vertical"></li>
 </ul>
