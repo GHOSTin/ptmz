@@ -1,5 +1,7 @@
 <?php namespace boxxy\classes;
 
+use \exception;
+
 class app implements \boxxy\interfaces\app{
 
   public function execute_before_request_block(){}
@@ -10,24 +12,27 @@ class app implements \boxxy\interfaces\app{
 
   public function execute_before_controller_block(){}
 
-  public function fail_request_block(){
-    die('Error execute request block');
+  public function fail_request_block(exception $e){
+    $this->fail_run_block($e);
   }
 
-  public function fail_resolver_block(){
-    die('Error execute resolver block');
+  public function fail_resolver_block(exception $e){
+    $this->fail_run_block($e);
   }
 
-  public function fail_controller_block(){
-    die('Error execute controller block');
+  public function fail_controller_block(exception $e){
+    $this->fail_run_block($e);
   }
 
-  public function fail_view_block(){
-    die('Error execute view block');
+  public function fail_view_block(exception $e){
+    $this->fail_run_block($e);
   }
 
-  public function fail_run_block(){
-    die('ERROR!!!');
+  public function fail_run_block(exception $e){
+    if($this->get_status() === 'development')
+      die($e);
+    else
+      exit();
   }
 
   public function get_request(){
@@ -37,6 +42,10 @@ class app implements \boxxy\interfaces\app{
   public function get_resolver(){
     return new \boxxy\classes\resolver(
                   new \app\errors\controllers\error404());
+  }
+
+  public function get_status(){
+    return 'production';
   }
 
   public function get_view(){

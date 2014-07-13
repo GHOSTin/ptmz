@@ -1,4 +1,4 @@
-<?php namespace boxxy;
+<?php namespace boxxy\classes;
 
 class di{
 

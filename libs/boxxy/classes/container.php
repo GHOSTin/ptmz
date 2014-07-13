@@ -23,7 +23,7 @@ class container implements \boxxy\interfaces\container{
       $this->execute_controller_block();
       $this->execute_view_block();
     }catch(exception $e){
-      $this->fail_run_block();
+      $this->fail_run_block($e);
     }
   }
 
@@ -32,7 +32,7 @@ class container implements \boxxy\interfaces\container{
       $this->context->execute_before_request_block();
       $this->request = $this->context->get_request();
     }catch(exception $e){
-      $this->context->fail_request_block();
+      $this->context->fail_request_block($e);
     }
   }
 
@@ -52,7 +52,7 @@ class container implements \boxxy\interfaces\container{
       $this->response['response'] = $this->controller->execute($this->request);
       $this->response['request'] = $this->request;
     }catch(exception $e){
-      $this->context->fail_controller_block();
+      $this->context->fail_controller_block($e);
     }
   }
 
@@ -62,7 +62,7 @@ class container implements \boxxy\interfaces\container{
       $this->view = $this->context->get_view();
       print $this->view->render($this->root, $this->request, $this->response);
     }catch(exception $e){
-      $this->context->fail_view_block();
+      $this->context->fail_view_block($e);
     }
   }
 }
