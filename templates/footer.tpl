@@ -21,16 +21,16 @@
     Your message has been sent. Thank you!
   </div>
 </div>
-<form method="post" action="contact.php" id="contactform">
+<form method="post" action="/mail/" id="contactform">
   <div class="form">
     <div class="controls controls-row">
-      <input class="span6" type="text" name="name" placeholder="Имя">
-      <input class="span6" type="text" name="email" placeholder="email">
+      <input class="span6" type="text" name="name" placeholder="Имя" required>
+      <input class="span6" type="text" name="email" placeholder="email"required>
     </div>
     <div class="controls">
-      <textarea class="span12" name="comment" rows="4" placeholder="Сообщение"></textarea>
+      <textarea class="span12" name="message" rows="4" placeholder="Сообщение" required></textarea>
     </div>
-    <input type="submit" id="submit" class="btn" value="Отправить">
+    <button type="submit" class="btn">Отправить</button>
   </div>
 </form>
 </div>
