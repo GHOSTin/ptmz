@@ -1,0 +1,11 @@
+<?php namespace app;
+
+class conf{
+
+  const db_host = 'localhost';
+  const db_name = 'ptmz_test';
+  const db_user = 'ptmz_test';
+  const db_password = 'ptmz_test';
+  const status = 'production';
+  const images = 'images';
+}
