@@ -47,6 +47,8 @@ class production{
   }
 
   public function set_name($name){
+    if(!preg_match('|^[а-яА-яёЁ0-9 .,()-]+$|u', $name))
+      throw new DomainException();
     $this->name = (string) $name;
   }
 
@@ -55,14 +57,20 @@ class production{
   }
 
   public function set_price($price){
-    $this->price = (int) $price;
+    if(!preg_match('|^[а-яА-яёЁ0-9 .,()-/]+$|u', $price))
+      throw new DomainException();
+    $this->price = (string) $price;
   }
 
   public function set_state($state){
+    if(!preg_match('|^[а-яА-яёЁ0-9 .,()-/]+$|u', $state))
+      throw new DomainException();
     $this->state = (string) $state;
   }
 
   public function set_value($value){
-    $this->value = (double) $value;
+    if(!preg_match('|^[а-яА-яёЁ0-9 .,]+$|u', $value))
+      throw new DomainException();
+    $this->value = (string) $value;
   }
 }
