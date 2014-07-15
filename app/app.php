@@ -22,6 +22,15 @@ class app extends \boxxy\classes\app{
     $pimple['\app\php'] = function ($pimple) {
       return new \app\php();
     };
+    $pimple['\app\email\factory'] = function ($pimple) {
+      return new \app\email\factory();
+    };
+    $pimple['\app\email\mapper'] = function ($pimple) {
+      return new \app\email\mapper($pimple['pdo']);
+    };
+    $pimple['\app\email\model'] = function ($pimple) {
+      return new \app\email\model();
+    };
     $pimple['\app\price\model'] = function ($pimple) {
       return new \app\price\model();
     };
