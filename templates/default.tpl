@@ -76,20 +76,7 @@
               <span class="copyright">© </span> Copyright 2014 Основные локальные сервисы.
             </p>
           </div>
-          <!-- right -->
-          <div class="span8 smallspacetop">
-            <div class="pull-right smaller">
-              <ul class="footermenu">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Продукция</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">Контакты</a></li>
-              </ul>
-            </div>
-            <div class="clearfix">
-            </div>
-          </div>
-          <!-- end right -->
+
         </div>
       </div>
       <div class="text-center wraptotop">
