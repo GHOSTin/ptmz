@@ -49,7 +49,7 @@ class item{
   public function add_row(array $row){
     if(!empty($row))
       foreach($row as $text)
-        if(!preg_match('|^[а-яА-яёЁ0-9 .,()-/]+$|u', $text))
+        if(!preg_match('|^[а-яА-яёЁ0-9 .,;()-/]+$|u', $text))
           throw new DomainException();
     $this->rows[] = $row;
   }

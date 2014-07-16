@@ -9,9 +9,6 @@
         <br><i class="icon-print"></i> 8(3439) 29-95-23
         <br><i class="icon-envelope"></i> ooo-ptmz@yandex.ru
       </p>
-      <p>
-        Брылина Юлия Рафисовна - отдел продаж, менеджер
-      </p>
     </div>
   </div>
   <div class="row-fluid">

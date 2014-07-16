@@ -14,7 +14,7 @@
     <td>{{ production.get_name() }}</td>
     <td>{% for image in production.get_images() %}
           <div>
-            <img class="img-responsive" src="/production/get_image/?file={{ image }}" width="100px" />
+            <img class="img-responsive" src="/production/get_image/?file={{ image }}" width="300px" />
           </div>
         {% endfor %}
     </td>

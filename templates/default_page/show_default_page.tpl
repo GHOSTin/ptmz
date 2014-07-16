@@ -37,7 +37,7 @@
   <!-- intro  -->
   <div class="row-fluid text-center intro">
     <div class="span12">
-      <h1>ПТМЗ, <span class="primarycolor">завод</span>, который не подведет.</h1>
+      <h1>Вас приветствует компания ООО "Первоуральский Трубо-Механический завод"</h1>
       <p class="featured lead bottom10">
         Наше предприятие более 8 лет находится на рынке трубного металлопроката, одним из основных направлений деятельности является производство насосно-компрессорных труб в соответствии с ГОСТ 633-80, обсадных труб в соответствии с ГОСТ 632-80 и бурильных труб ЗН-95 в соответствии с ГОСТ 631-7.
       </p>
@@ -46,7 +46,7 @@
 <!-- SUPPORT  -->
 <div class="row-fluid graysection text-center top40">
   <p class="lead bottom0">
-    Многолетний опыт работы с заказчиками показал, что существующая технология, оборудования и организация производства обеспечивают качество выпускаемой продукции.
+    Мы хорошо понимаем, что основой любого бизнесса явялется доверие и честность. Отдавая себе отчет о том, что взаимопонимание никогда не появляется мнгновенно. Мы сознательно настроены на долгострочную совместную работу, качественно и своевременно выполняя свои обязательства.
   </p>
 </div>
 <!-- OUR COMPANY & WHY CHOOSE US  -->
@@ -79,28 +79,33 @@
       </div>
     </div>
     <div class="accordion">
-      <h3><span>Собственное производство</span></h3>
+      <h3><span>Политика качества</span></h3>
       <div class="accord_cont">
         <p>
-          Мы производим трубы на совственном оборудовании. Имеем слаженный коллектив работников.
+          При производстве и проверке труб осуществляется поэтапный контроль качества выпускаемой продукции, который позволяет выявить и устранить практически весь спектр дефектов до сдачи её на склад.
         </p>
       </div>
       <h3><span>Собственный склад</span></h3>
       <div class="accord_cont">
         <p>
-           At leo tincidunt felis facilisis tincidunt. Nunc sit amet velit metus. Proin posuere, ligula nec porttitor eget luctus, risus lectus tristique ligula, quis pretium elit diam a nisi eget mauris vestibulum.
+          На нашем складе всегда в наличии трубы различных диаметров и марок стали. При отсутствии продукции на складе всегда возможна продажа её под заказ.
         </p>
       </div>
-      <h3><span>Опыт работы</span></h3>
+      <h3><span>Индивидуальный подход к заказчику</span></h3>
       <div class="accord_cont">
         <p>
-           At leo tincidunt felis facilisis tincidunt. Nunc sit amet velit metus. Proin posuere, ligula nec porttitor eget luctus, risus lectus tristique ligula, quis pretium elit diam a nisi eget mauris vestibulum.
+           Система предварителной записи позволяет с минимальными временными затратами скомплектовать и отгрузить заказчику необходимую продукцию.
         </p>
       </div>
       <h3><span>Транспорт</span></h3>
       <div class="accord_cont">
         <p>
-           Ut est mi, consequat ut bibendum quis, vehicula vel nibh. At leo tincidunt felis facilisis tincidunt. Nunc sit amet velit metus. Proin posuere, ligula nec porttitor eget luctus, risus lectus tristique ligula, quis pretium elit diam a nisi eget mauris vestibulum.
+           Отгрузка продукции железнодорожным и автотранспортом.
+            <ul>
+              <li>Отгрузка грузов в ближнее и дальнее зарубежье</li>
+              <li>Оформление всех таможенных процедур</li>
+              <li>При таможенных грузах оформляется сертификат происхождения товара по форме СТ-1 при наличии сертификатов качества или технического паспорта завода</li>
+            </ul>
         </p>
       </div>
     </div>

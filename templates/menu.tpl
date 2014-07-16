@@ -5,7 +5,7 @@
   <li class="divider-vertical"></li>
   <li><a href="/company/">О компании</a></li>
   <li class="divider-vertical"></li>
-  <li><a href="/production/">Продукция</a></li>
+  <li><a href="/production/">Наличие</a></li>
   <li class="divider-vertical"></li>
   <li><a href="/price/">Прайс</a></li>
   <li class="divider-vertical"></li>
@@ -17,6 +17,7 @@
       <li><a href="/docs/statistic/">Коды статистики</a></li>
       <li><a href="/docs/kpp/">Свидетельство</a></li>
       <li><a href="/docs/statute/">Устав</a></li>
+      <li><a href="/docs/cart/">Карточка предприятия</a></li>
     </ul>
   </li>
 </ul>
